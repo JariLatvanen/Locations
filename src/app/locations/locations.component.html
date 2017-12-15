@@ -1,0 +1,19 @@
+<table border="1" width="20%">
+  <thead>
+      <tr>
+         <th>#</th>
+         <th>Latitude</th>
+         <th>Longitude</th>
+      </tr>
+  </thead>
+  <tbody>
+      <!-- iterate for each location -->
+      <tr *ngFor="let location of locations">
+         <td>{{location.id}}</td>
+         <td>{{location.latitude}}</td>
+         <td>{{location.longitude}}</td>
+         <td><button (click)="delete(location.id)">Delete</button></td>
+         <td><button (click)="streetview(location.id)">Street</button></td>
+        </tr>
+  </tbody>
+</table>
