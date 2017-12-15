@@ -15,5 +15,5 @@ The app was created with Angular 2+.
 
 It uses Angular Google Maps (AGM)
 
-![alt text](https://github.com/JariLatvanen/Locatons/blob/master/src/image.png)
+![alt text](https://github.com/JariLatvanen/Locations/blob/master/src/image.png)
 
