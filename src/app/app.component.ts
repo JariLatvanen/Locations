@@ -34,13 +34,11 @@ export class AppComponent {
   }
 
   addlocs(event: Object[]) {
-    this.locations = event;
-      console.log(this.locations)
+    this.locations = event
     }
 
   viewloc(event: Location) {
       this.loc = event;
-        console.log(this.loc.latitude)
       }
   
 
