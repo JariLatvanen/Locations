@@ -24,8 +24,6 @@ export class StreetviewComponent implements OnInit {
   loc : Object = null
   
   initMap() {
-    console.log("initmap:" + this.location)
-
    if (typeof this.location !== 'undefined') {
    this.loc = {lat: this.location.latitude, lng: this.location.longitude};
    
