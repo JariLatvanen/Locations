@@ -15,5 +15,8 @@ The app was created with Angular 2+.
 
 It uses Angular Google Maps (AGM)
 
+A demo with in memory DB is available here:
+https://koti.tamk.fi/~c7jlatva/locapp/index.html
+
 ![alt text](https://github.com/JariLatvanen/Locations/blob/master/src/image.png)
 
