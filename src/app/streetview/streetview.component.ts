@@ -51,12 +51,10 @@ export class StreetviewComponent implements OnInit {
   }
 
   ngOnInit() {
-    console.log("on init")
     this.initMap();
   }
 
   ngOnChanges() {
-    console.log("on changes")
     this.initMap();
   }
 
