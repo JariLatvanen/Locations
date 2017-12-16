@@ -70,10 +70,8 @@ export class LocationsComponent implements OnInit {
   }
 
   streetview(event : string) {
-    console.log(event)
     var i =+ event
           let index =+ this.locations.findIndex(this.byId(i));
-    console.log(this.locations[index])
        this.loc.emit(this.locations[index])
 
   }
