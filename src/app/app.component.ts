@@ -33,7 +33,6 @@ export class AppComponent {
     this.add=event;
   }
 
-  //????
   addlocs(event: Object[]) {
     this.locations = event;
       console.log(this.locations)
