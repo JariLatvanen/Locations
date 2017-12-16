@@ -69,6 +69,7 @@ export class LocationsComponent implements OnInit {
     }
   }
 
+  //streetview button was pressed and one location is chosen
   streetview(event : string) {
     var i =+ event
           let index =+ this.locations.findIndex(this.byId(i));
