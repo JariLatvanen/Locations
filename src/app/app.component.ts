@@ -12,7 +12,7 @@ interface Location {
              <p>Today is {{dateVar | date:'yyy-MM-dd'}}</p>
              <div>
              <p>Add locations by giving the coordinates or by double-clicking on the map.</p>  
-             <p>The "Street" button will shoe you a street view of the location if available.</p>  
+             <p>The "Street" button will show you a street view of the location if available.</p>  
              <app-streetview [location]=loc></app-streetview>
              <app-map (locAdded)="added($event)" [locations]=locations></app-map><br/>
              <app-locations (locs)="addlocs($event)"  (loc)="viewloc($event)" [added]="add"></app-locations><br>
